@@ -2,24 +2,23 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: yellow;
-    list-style: none;    
+    background-color: darkblue;
+    list-style: none;   
+    font-family: 'Roboto Mono', monospace; 
+    border-bottom: 5px solid lightgreen;
 }
 
 #navbar-image {
     width: 25px;
     height: 25px;
+    background-color: darkblue;
 }
 
-.navbar li {
+.navbar li, a {
     margin-right: 30px;
-}
-
-.navbar-projects:hover > .navbar-list-projects,
-.navbar-list-projects:hover {
-    visibility: visible;
-    opacity: 1;
-    display: block;
+    color: lightgreen;
+    background-color: darkblue;
+    text-decoration: none;
 }
 
 .navbar-list-projects {
@@ -30,6 +29,18 @@
     margin-top: 1rem;
     display: none;
     background-color: blue;
+}
+
+.navbar a:hover {
+    cursor: pointer;
+    color: black;
+    background-color: lightgreen;
+}
+
+.navbar li:hover, .navbar-list-projects:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
 }
 
 .project-list-item {
