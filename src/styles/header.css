@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: yellow;
+    list-style: none;    
+}
+
+#navbar-image {
+    width: 25px;
+    height: 25px;
+}
+
+.navbar li {
+    margin-right: 30px;
+}
+
+.navbar-projects:hover > .navbar-list-projects,
+.navbar-list-projects:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+.navbar-list-projects {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    display: none;
+    background-color: blue;
+}
+
+.project-list-item {
+    color: red;
+}
+

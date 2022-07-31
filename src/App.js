@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "./Header";
+import Header from "./header/Header";
+import "./styles/mainPage.css";
 
 export default function App() {
     return (
         <>
             <Header />
-            <h1>Hello World Round 3</h1>
         </>
     );
 }
