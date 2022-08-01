@@ -1,11 +1,12 @@
 import React from "react";
-import Header from "./header/Header";
-import "./styles/mainPage.css";
+import Header from "./navbar/Header";
 
-export default function App() {
+const App = () => {
     return (
         <>
             <Header />
         </>
-    );
+    )
 }
+
+export default App;
