@@ -1,16 +1,14 @@
 import React from "react";
 import { menuItems } from "./MenuItems";
+import Menu from "./Menu";
 
 const Navbar = () => {
     return (
         <nav>
             <ul className="menus">
                 {menuItems.map((menu, index) => {
-                    return (
-                        <li className="menu-items" key={index}>
-                            <a href="/#">{menu.title}</a>
-                        </li>
-                    );
+                    const depthLevel = 0;
+                    return <Menu items={menu} key={index} depthLevel={depthLevel} />;
                 })}
             </ul>
         </nav>
