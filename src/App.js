@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./navbar/Header";
-import Squares from "./ComponentLibrary/BoxesChallenge/BoxChallengeMain";
+import Squares from "./ExampleLibrary/BoxesChallenge/BoxChallengeMain";
 import ClockMain from "./ComponentLibrary/Clock/ClockMain";
 import PetProfiles from "./ExampleLibrary/PetProfiles/PetProfiles";
 
